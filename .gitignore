@@ -1,0 +1,4 @@
+# Ignores unnecessary files
+*.o
+/dwm
+/config.def.h
