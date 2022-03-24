@@ -2,7 +2,7 @@
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 ## Requirements
-In order to build dwm you need the Xlib header files and libxft-bgra.
+In order to build dwm you need the Xlib header files and `libxft-bgra`.
 
 ## Installation
 Edit `config.mk` to match your local setup (dwm is installed into
@@ -26,7 +26,7 @@ the DISPLAY envirmonment variable is set correctly, e.g.:
 (This will start dwm on display :1 of the host foo.bar.)
 
 In order to display status info in the bar, you can do something
-like this in your .xinitrc:
+like this in your `.xinitrc`:
 
     while xsetroot -name "`date` `uptime` | sed 's/.*,//'`"
     do
