@@ -39,10 +39,10 @@ The configuration of dwm is done by creating a custom `config.h`
 and (re)compiling the source code.
 
 ## Patches
-* actualfullscreen: actually toggles fullscreen for a window
-* alwayscenter: spawns all floating windows centered, but without a rule
-* attachbelow: makes new clients attach below the selected client
-* cfacts: lets you assign different weights to clients in their respective stack
-* fullgaps-toggle: adds gaps between client windows
-* status2d: allows colors and rectangle drawing in your dwm status bar
-* steam: works around the Steam client by ignoring the x and y co-ordinates for ConfigureNotify
+* actualfullscreen
+* alwayscenter
+* attachbelow
+* cfacts
+* fullgaps-toggle
+* status2d
+* steam
