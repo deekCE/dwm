@@ -9,7 +9,7 @@ static const int topbar             = 0;        /* 0 means bottom bar */
 static const char *fonts[]          = {
     "Meslo LG M:size=10:antialias=true:autohint=true",
     "Noto Color Emoji:pixelsize=16:antialias=true:autohint=true",
-    "Material Design Icons:pixelsize=16:antialias=true:autohint=true",
+    "Material Design Icons Desktop:pixelsize=16:antialias=true:autohint=true",
 };
 static const char dmenufont[]       = "Meslo LG M:size=10:antialias=true:autohint=true";
 static const char col_black2[]      = "#262626";
