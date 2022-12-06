@@ -90,7 +90,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY|ShiftMask,             XK_w,      setlayout,      {0} },
 	{ MODKEY,                       XK_w,      togglefloating, {0} },
-	{ MODKEY|ShiftMask,             XK_a,      togglefullscr,  {0} },
+	{ MODKEY|ShiftMask,             XK_s,      togglefullscr,  {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
 	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
